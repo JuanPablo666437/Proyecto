@@ -1,0 +1,44 @@
+{
+    "document": {
+      "lang": "en",
+      "head": {
+        "meta": [
+          {"charset": "UTF-8"},
+          {"name": "viewport", "content": "width=device-width, initial-scale=1.0"}
+        ],
+        "title": "Document",
+        "link": {
+          "rel": "stylesheet",
+          "href": "css/estilosmen.css"
+        }
+      },
+      "body": {
+        "header": {
+          "logo": "Rock & Metal",
+          "nav": {
+            "ul": [
+              {"li": {"a": {"href": "bands.html", "text": "Bands"}}},
+              {"li": {"a": {"href": "#albums", "text": "Albums"}}},
+              {"li": {"a": {"href": "#concerts", "text": "Concerts"}}},
+              {"li": {"a": {"href": "#merch", "text": "Merch"}}},
+              {"li": {"a": {"href": "#news", "text": "News"}}},
+              {"li": {"a": {"href": "#reviews", "text": "Reviews"}}},
+              {"li": {"a": {"href": "#contact", "text": "Contact"}}}
+            ]
+          }
+        },
+        "main": {
+          "heroImages": [
+            {"src": "imagenes/1mg.jpg", "alt": "Hero Image 1", "link": "page1.html"},
+            {"src": "imagenes/2mg.jpg", "alt": "Hero Image 2", "link": "page2.html"},
+            {"src": "imagenes/3mg.jpg", "alt": "Hero Image 3", "link": "page3.html"}
+          ]
+         
+        },
+        "footer": {
+          "text": "&copy; 2023 Rock & Metal. lopez blanco juan pablo."
+        }
+      }
+    }
+  }
+  
